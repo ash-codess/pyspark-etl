@@ -1,0 +1,35 @@
+{    
+    "transformations":[
+        {
+            "transformation":"change_date_format",
+            "source_column":"hire_date",
+            "target_format":"dd-MM-yyyy"
+
+        },
+        {
+            "transformation":"split",
+            "source_column":"birth_date",
+            "target_columns":["birth_year","birth_month","birth_day"],
+            "separator":"-"
+        },
+        {
+            "transformation":"concatenate_columns",
+            "source_columns":["first_name","last_name"],
+            "target_column":"Full_name"
+    
+        },
+        {
+            "transformation":"drop_column",
+            "source_columns":["birth_date","first_name","last_name"]
+
+
+        },
+        {
+            "transformation":"join_tables",
+            "source_tables":["employees","dept_emp"],
+            "source_column":"emp_no",
+            "join_type":"inner"
+
+        }
+    ]
+}
