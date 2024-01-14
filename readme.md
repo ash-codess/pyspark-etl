@@ -1,4 +1,4 @@
-# PySpark ETL Project: Employee Database Extraction, Transformation, and Loading
+![cover_image](https://github.com/ash-codess/pyspark-etl/blob/master/Json_Folder/github-cover.png)
 
 ## Overview
 
