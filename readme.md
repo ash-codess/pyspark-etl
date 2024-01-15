@@ -1,4 +1,4 @@
-![cover_image](https://github.com/ash-codess/pyspark-etl/blob/master/Json_Folder/github-cover.png)
+![cover_image](https://github.com/ash-codess/pyspark-etl/blob/master/Json_Folder/Group%204.png)
 
 ## Overview
 
